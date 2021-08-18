@@ -1,0 +1,9 @@
+Função restodadivisão(x,y)
+Inicio
+	Se x<y então
+		Retornar(x);
+	Senão
+		Aux:=restodadivisao(x-y,y);
+		Retornar(aux);
+	Fim-se
+Fim
