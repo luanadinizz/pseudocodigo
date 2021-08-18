@@ -1,0 +1,17 @@
+ Inicio
+	cont:=0;
+	se n>m entã0
+		sobra:=n-m;
+		k:m;
+	senão
+		sobra:=m-n;
+		k:=n;
+	fim-se
+	para i:=1 até k faça
+		se A[i]≠ B[i] então
+			cont:=cont+1;
+		fim-se
+	fim-para
+	cont:=cont+sobra;
+	imprima(“# posições distintas:”, cont);
+fim
