@@ -1,0 +1,8 @@
+Função fibo(n)
+Inicio
+	Se n <=2 então
+		Retornar(1);
+	Senão
+		Retornar(fibo(n-1)+fibo(n-2));
+	Fim-se
+fim
