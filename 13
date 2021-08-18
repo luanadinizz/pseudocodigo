@@ -1,0 +1,19 @@
+int 
+buscabinaria(int x, int n, int v[]){
+	return bb(x,0,n-1,v);
+}
+int
+bb(int x, int e, int d, int v[]){
+	if(e>d) 
+		return(-1);
+	else{
+		int m=(e+d)/2;
+		if(v[m]==x)
+			return (m);
+		if(v[m]<x)
+			return (bb(x,m+1,d,v));
+		else
+			return (bb(x,e,m-1,v));
+	}
+}
+
