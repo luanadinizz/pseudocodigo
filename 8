@@ -1,0 +1,10 @@
+função  somavetor(v,n)
+inicio
+	se n=1 então
+		retornar(v[n]);
+	senã0
+		aux:=somavetor(v,n-1);
+		soma:=aux+v[n];
+		retornar(soma);
+	fim-se
+fim
