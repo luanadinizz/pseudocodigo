@@ -1,0 +1,13 @@
+função multiplicacaomatrizes(M1,M2n)
+Inicio
+	Para i:=1 até n faça
+		Para j:=1 até n faça
+			soma:=0;
+			para k:=1 até n faça
+				  soma:=soma+(M1[i][k]*M2[k][j]);
+			fim-para
+			M3[i][j]:=soma;
+		fim-para		
+	fim-para
+	retornar(M3)
+Fim
