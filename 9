@@ -1,0 +1,13 @@
+função maior(v,n)
+ inicio
+	se n:=1 então
+		retornar(v[n]);
+	senão
+		aux:=maior(v,n-1);
+		se aux<v[n] então
+			retornar(v[n]);
+		senão
+			retornar(aux);
+		fim-se
+	fim-se
+fim
