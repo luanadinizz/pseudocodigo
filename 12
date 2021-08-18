@@ -1,0 +1,9 @@
+Função   busca (v,n,x)
+Inicio
+	Para  i:=1 até n faça 
+		Se v[i]:=x então
+			Retornar(i);
+		Fim-se
+	Fim-para
+	Retornar(-1);
+Fim
